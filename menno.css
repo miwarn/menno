@@ -1,0 +1,81 @@
+body { background-color: #202020}
+.b {
+  width: 95vmin;
+  height: 95vmin;
+  position: relative;
+  border: 5px solid #884806;
+  background-color: #cbc8b3;
+}
+.f {
+  position: absolute;
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 7%;
+  height: 7%;
+  text-align: center;
+}
+.red {
+  background-color: #ff8080
+}
+.green {
+  background-color: #2aab33
+}
+.blue {
+  background-color: #8080ff
+}
+.yellow {
+  background-color: #ffff80
+}
+.a {
+  position: absolute;
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 6%;
+  height: 6%;
+}
+.w {
+  position: absolute;
+  border: 2px solid black;
+  border-radius: 10%;
+  width: 8%;
+  height: 8%;
+  font-size: xx-large;
+  text-align: center;
+  line-height: 140%;
+}
+.p {
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 5vmin;
+  height: 5vmin;
+}
+.a > .p {
+  top: 4%;
+  left: 4%;
+}
+.f > .p {
+  top: 9.5%;
+  left: 9.5%;
+}
+.pb {
+  background-color: blue;
+}
+.pr {
+  background-color: red;
+}
+.pg {
+  background-color: #80ff80;
+}
+.py {
+  background-color: yellow;
+}
+.p.ok {
+  border: 1px solid green;
+}
+.p.nok {
+  border: 1px solid red;
+}
+.w.ok {
+  border: 2px solid green;
+}
